@@ -1,4 +1,4 @@
-import { CurrencyBitcoin } from "@mui/icons-material";
+import { CurrencyExchange } from "@mui/icons-material";
 import { AppBar, Avatar, Box, InputBase, Menu, MenuItem, Toolbar, Typography, styled } from "@mui/material";
 import React, { useState } from "react";
 
@@ -62,12 +62,12 @@ const Navbar = () => {
                     <MenuItem >Logout</MenuItem>
                 </Menu>
 
-                <CurrencyBitcoin sx={{display: {xs: "flex", sm:"none"}}}/>
+                <CurrencyExchange sx={{display: {xs: "flex", sm:"none"}}}/>
 
                 <Typography variant="h6" sx={{display: {xs: "none", sm: "block"}}}>Welcome, Tharun</Typography>
 
                 <Search>
-                    <InputBase placeholder="Search tokens..."/>
+                    <InputBase placeholder="Search currencies..."/>
                 </Search>
 
                 {/* PC Version View */}
