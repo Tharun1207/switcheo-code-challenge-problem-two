@@ -1,3 +1,14 @@
+# Switcheo Code Challenge Problem Two: Create a Fancy Form
+
+The task at hand was to create a currency converter application, as fancy-looking as possible. 
+Hence, I decided to use React with MaterialUI (mui5) to build this application.
+
+To fetch conversions of currencies in real time, I used [freecurrencyapi](https://app.freecurrencyapi.com/) to fetch the data into the React application, and process it using the Axios package.
+
+Learning how to integrate React with MUI and fetching API data with Axios functions was a very interesting and engaging experience.
+
+Thank you Switcheo Labs for this challenge!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
